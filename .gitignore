@@ -1,0 +1,39 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Model weights (you have these)
+*.pt
+
+# Checkpoints
+checkpoints/
+
+# YOLO training outputs
+runs/
+
+# Datasets (your ambulance + vehicles folders)
+Ambulance-2/
+Ambulance-20/
+Vehicles-OpenImages-1/
+
+# Videos & images (test media)
+videos/
+*.mp4
+*.jpg
+*.png
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
